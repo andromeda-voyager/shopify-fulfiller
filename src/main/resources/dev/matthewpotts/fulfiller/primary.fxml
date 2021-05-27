@@ -16,7 +16,7 @@
 
    <!--Search Box-->
    <AnchorPane layoutX="15.0" layoutY="11.0">
-      <TextField fx:id="searchTextField" prefHeight="26.0" prefWidth="313.0" promptText="Search" />
+      <TextField fx:id="searchTextField" prefHeight="26.0" prefWidth="313.0" promptText="Search"/>
       <Button fx:id="clearButton" layoutX="293.0" layoutY="3.0" mnemonicParsing="false" onAction="#handleClearSearchButtonAction" prefHeight="20.0" prefWidth="17.0" style="-fx-max-height: 20px; -fx-max-width: 20px; -fx-background-radius: 10em; -fx-background-size: 90%; -fx-background-image: url('/clear.png'); -fx-background-position: center; -fx-background-color:transparent;">
          <font>
             <Font size="1.0" />
@@ -48,7 +48,7 @@
             <Font name="System Bold" size="12.0" />
          </font></Label>
 
-      <Button fx:id="customsInformationButton" layoutX="160.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleCustomsInformationButtonAction" prefHeight="70.0" prefWidth="85.0" style="-fx-background-color: #0083ff; -fx-text-fill: white;" text="View Customs Information" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="customsInformationButton" layoutX="160.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleCustomsInformationButtonAction" prefHeight="70.0" prefWidth="95.0" style="-fx-background-color: #0083ff; -fx-text-fill: white;" text="View Customs Information" textAlignment="CENTER" wrapText="true" />
 
       <!--Shipping Address-->
       <Label layoutX="13.0" layoutY="108.0" text="Shipping Address:">
@@ -78,7 +78,7 @@
       <Label layoutX="64.0" layoutY="305.0" text="Weight:" />
       <Label fx:id="trackingLabel" layoutX="47.0" layoutY="325.0" text="Tracking #:" />
 
-      <Label fx:id="shippingMethodLabel" layoutX="120.0" layoutY="285.0" prefHeight="17.0" prefWidth="130.0" />
+      <Label fx:id="shippingMethodLabel" layoutX="125.0" layoutY="285.0" prefHeight="17.0" prefWidth="130.0" />
       <Label fx:id="weightLabel" layoutX="120.0" layoutY="305.0" prefHeight="17.0" prefWidth="130.0" />
       <Label fx:id="trackingNumberLabel" layoutX="120.0" layoutY="325.0" prefHeight="17.0" prefWidth="130.0" />
 

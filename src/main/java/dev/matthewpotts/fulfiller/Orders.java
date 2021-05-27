@@ -65,7 +65,7 @@ class Orders {
 
     void search(String searchTerm, boolean includeFulfilled) {
         ordersObservableList.clear();
-
+        searchTerm = searchTerm.trim();
         if (searchTerm.isEmpty()) {
             ordersObservableList.addAll(unfulfilledOrdersMap.values());
             if(includeFulfilled) {
