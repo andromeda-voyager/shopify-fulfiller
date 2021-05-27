@@ -1,4 +1,4 @@
-package sample;
+package dev.matthewpotts.fulfiller;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -18,6 +18,7 @@ class Orders {
     Orders() {
         unfulfilledOrdersMap = new HashMap<>();
         fulfilledOrdersList = new ArrayList<>();
+
         addRecentlyFulfilledOrders();
         scheduleUpdate();
     }

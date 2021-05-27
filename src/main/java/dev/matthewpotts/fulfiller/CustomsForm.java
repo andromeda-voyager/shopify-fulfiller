@@ -1,4 +1,4 @@
-package sample;
+package dev.matthewpotts.fulfiller;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

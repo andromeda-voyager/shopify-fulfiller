@@ -1,4 +1,4 @@
-package sample;
+package dev.matthewpotts.fulfiller;
 
 import javafx.scene.input.Clipboard;
 import javafx.scene.input.ClipboardContent;

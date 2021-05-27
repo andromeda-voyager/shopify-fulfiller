@@ -1,4 +1,4 @@
-package sample;
+package dev.matthewpotts.fulfiller;
 
 import javax.sound.sampled.Line;
 

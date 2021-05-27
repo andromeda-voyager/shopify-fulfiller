@@ -1,4 +1,4 @@
-package sample;
+package dev.matthewpotts.fulfiller;
 
 import com.google.gson.*;
 
@@ -11,18 +11,18 @@ import java.time.Duration;
 
 class ShopifyClient {
 
-    private final static String STORE_LOCATION = "14799536188";
+    private final static String STORE_LOCATION = "63012733103";
     private final static Gson gson = new Gson();
     private final static String EMPTY_JSON_OBJECT = gson.toJson(new JsonObject());
-    private final static String STORE_URL_BASE = "https://.myshopify.com/admin/api/2019-10/";
+    private final static String STORE_URL_BASE = Config.SHOPIFY_API_URL;
     private static HttpClient httpClient = HttpClient.newBuilder()
             .connectTimeout(Duration.ofSeconds(20))
             .authenticator(new Authenticator() {
                 @Override
                 protected PasswordAuthentication getPasswordAuthentication() {
                     return new PasswordAuthentication(
-                            "abc",
-                            "123".toCharArray());
+                            Config.SHOPIFY_API_KEY,
+                            Config.SHOPIFY_PASSWORD.toCharArray());
                 }
             })
             .build();

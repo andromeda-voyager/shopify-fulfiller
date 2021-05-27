@@ -1,4 +1,4 @@
-package sample;
+package dev.matthewpotts.fulfiller;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.fxml.FXML;
