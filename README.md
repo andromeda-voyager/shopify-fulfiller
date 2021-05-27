@@ -5,6 +5,9 @@ Fulfillment helper application for Shopify stores.
 * View shipping address, weight, subtotal, and shipping cost
 * Fulfill orders with one click
 
+![Alt text](demo/demo1.jpg?raw=true)
+
+![Alt text](demo/demo2.jpg?raw=true)
 
 ## Build
 
