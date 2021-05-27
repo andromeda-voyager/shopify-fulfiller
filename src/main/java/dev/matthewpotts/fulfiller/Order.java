@@ -54,7 +54,8 @@ public class Order implements Comparable<Order>{
     }
 
     boolean hasName(String name) {
-        return getShippingAddress().getName().toLowerCase().contains(name) || getBillingAddress().getName().toLowerCase().contains(name);
+        return getShippingAddress().getName().toLowerCase().contains(name.toLowerCase())
+                || getBillingAddress().getName().toLowerCase().contains(name.toLowerCase());
     }
 
 
